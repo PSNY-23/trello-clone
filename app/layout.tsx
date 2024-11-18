@@ -18,15 +18,15 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: `%s | ${siteConfig.name}` //My-organisationn | Taskify
+    template: `%s | ${siteConfig.name}`, //My-organisationn | stream
   },
   description: siteConfig.description,
   icons: [
     {
       url: "/logo.svg",
-      href: '/logo.svg'
-    }
-  ]
+      href: "/logo.svg",
+    },
+  ],
 };
 
 export default function RootLayout({
